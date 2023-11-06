@@ -4,6 +4,7 @@ import logging
 
 import aiohttp_jinja2
 import jinja2
+from markupsafe import Markup
 from aiohttp import web
 from aiohttp_session import session_middleware
 from aiohttp_session.cookie_storage import EncryptedCookieStorage
